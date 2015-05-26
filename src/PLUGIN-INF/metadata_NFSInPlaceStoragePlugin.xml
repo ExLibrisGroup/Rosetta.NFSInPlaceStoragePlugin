@@ -1,0 +1,44 @@
+<pl:metadata-config xmlns:pl="http://www.exlibrisgroup.com/Plugins/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <pl:pluginTypeName>StoragePlugin</pl:pluginTypeName>
+  <pl:deployName>NFSInPlaceStoragePlugin</pl:deployName>
+ <pl:className>com.exlibris.dps.repository.plugin.storage.nfs.NFSInPlaceStoragePlugin</pl:className>
+ <pl:initParameters>
+  <fr:x_form  xmlns:fr="http://com/exlibris/digitool/common/forms/xmlbeans">
+	<form_name>NFSInPlaceStoragePlugin_Parameters</form_name>
+	<description>NFSInPlaceStoragePlugin_Parameters</description>
+	<version>1.0</version>
+	<grid_x>1</grid_x>
+	<md_format>1</md_format>
+	<x_fields>
+		<x_field>
+			<field_name>storagePermanentType</field_name>
+			<x_logic_type>String</x_logic_type>
+			<x_ui_type>Hidden</x_ui_type>
+			<default_value>FILE</default_value>
+		</x_field>
+	</x_fields>
+ </fr:x_form>
+</pl:initParameters>
+  <pl:description>NFS In Place Storage Plugin</pl:description>
+  <pl:version>1</pl:version>
+  <pl:materialType>DIGITAL</pl:materialType>
+  <pl:module>Repository</pl:module>
+  <pl:generalType>TASK</pl:generalType>
+  <pl:publicApi>N</pl:publicApi>
+  <pl:implType>java</pl:implType>
+  <pl:contactPerson>
+    <contact_info xmlns="http://www.exlibrisgroup.com/Plugins/1.0/">
+      <contactType>admin</contactType>
+      <firstName>Exlibris</firstName>
+      <lastName>Ltd</lastName>
+      <telephone1>(050)746-1234</telephone1>
+      <telephone2></telephone2>
+      <email>adiko@exlibris.co.il</email>
+      <address1>Agodat Asport2 Building 9</address1>
+      <address2></address2>
+      <city>Jerusalem</city>
+      <zipCode>00000</zipCode>
+      <country>Israel</country>
+    </contact_info>
+  </pl:contactPerson>
+</pl:metadata-config>
