@@ -1,4 +1,4 @@
 # Rosetta.NFSInPlaceStoragePlugin 
 
 Developer Network :
-https://developers.exlibrisgroup.com/rosetta/sdk/plugins
+https://developers.exlibrisgroup.com/rosetta/integrations/plugins
